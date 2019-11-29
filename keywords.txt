@@ -1,6 +1,28 @@
 ###############################################
-# Syntax coloring for the task scheduler library
+# Syntax coloring 
 ###############################################
+
+###############################################
+# Literals (LITERAL1)
+###############################################
+
+VT_BLACK	LITERAL1
+VT_RED	LITERAL1
+VT_GREEN	LITERAL1
+VT_YELLOW	LITERAL1
+VT_BLUE	LITERAL1
+VT_MAGNETA	LITERAL1
+VT_CYAN	LITERAL1
+VT_WHITE	LITERAL1
+VT_DEFAULT	LITERAL1
+
+VT_RESET	LITERAL1
+VT_BRIGHT	LITERAL1
+VT_DIM	LITERAL1
+VT_UNDERSCORE	LITERAL1
+VT_BLINK	LITERAL1
+VT_REVERSE	LITERAL1
+VT_HIDDEN	LITERAL1
 
 ###############################################
 # Datatypes (KEYWORD1)
@@ -9,6 +31,8 @@
 VT100_Control	KEYWORD1
 VT100_TextFormat	KEYWORD1
 VT100_Colors	KEYWORD1
+
+VT100	KEYWORD1
 
 ###############################################
 # Functions (KEYWORD2)
@@ -38,6 +62,5 @@ setBackgroundColor	KEYWORD2
 setTextColor	KEYWORD2
 formatText	KEYWORD2
 
-VT100	KEYWORD1
 
 ####################### END ############################
