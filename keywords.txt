@@ -1,0 +1,43 @@
+###############################################
+# Syntax coloring for the task scheduler library
+###############################################
+
+###############################################
+# Datatypes (KEYWORD1)
+###############################################
+
+VT100_Control	KEYWORD1
+VT100_TextFormat	KEYWORD1
+VT100_Colors	KEYWORD1
+
+###############################################
+# Functions (KEYWORD2)
+###############################################
+
+begin	KEYWORD2
+reset	KEYWORD2
+
+cursorUp	KEYWORD2
+cursorDown	KEYWORD2
+cursorLeft	KEYWORD2
+cursorRight	KEYWORD2
+setCursor	KEYWORD2
+cursorOn	KEYWORD2
+cursorOff	KEYWORD2
+cursorHome	KEYWORD2
+cursorSave	KEYWORD2
+cursorRestore	KEYWORD2
+
+clearLineAfter	KEYWORD2
+clearLineBefore	KEYWORD2
+clearLine	KEYWORD2
+clearScreen	KEYWORD2
+clearAll	KEYWORD2
+
+setBackgroundColor	KEYWORD2
+setTextColor	KEYWORD2
+formatText	KEYWORD2
+
+VT100	KEYWORD1
+
+####################### END ############################
