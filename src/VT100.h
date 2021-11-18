@@ -227,6 +227,5 @@ class VT100_Control
 /**
 	\brief VT100_Control that can directly be used to use all VT100 functions
 */
-extern VT100_Control VT100;
 
 #endif /* VT100_H_ */
