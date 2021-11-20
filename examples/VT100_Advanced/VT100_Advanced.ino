@@ -1,5 +1,5 @@
 #include <VT100.h>
-
+VT100_Control VT100 ;
 
 char buffer[8];
 
